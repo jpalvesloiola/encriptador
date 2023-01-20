@@ -1,0 +1,165 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: normal;
+    line-height: 150%;
+  }
+
+  body{
+    background: #F3F5FC;
+  }
+
+  main{
+    width: 940px;
+    margin: 0 auto;
+  }
+
+  .logo{
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 30px;
+  }
+
+  main{
+    display: flex;
+  }
+  
+  .col-left{
+    box-sizing: border-box;
+    text-align: left;
+
+  }
+  
+  .col-right{
+    box-sizing: border-box;
+    background: white;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    width: 400px;
+  }
+  
+  textarea{
+    background: #F3F5FC;
+    font-size: 32px;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 590px;
+  }
+
+  textarea::-webkit-scrollbar {
+    width: 5px;               /* width of the entire scrollbar */
+  }
+  
+  textarea::-webkit-scrollbar-track {
+    background: transparent;        /* color of the tracking area */
+  }
+  
+  textarea::-webkit-scrollbar-thumb {
+    background-color: #0A3871;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid transparent;  /* creates padding around scroll thumb */
+  }
+
+  textarea:focus{
+    outline: none;
+  }
+
+  textarea::placeholder {
+    color: #0A3871;
+    opacity: 1;
+    font-size: 32px;
+    text-align: left;
+  } 
+
+  .msg-criptografa{
+    margin-top: 90px;
+    text-transform: lowercase;
+    /* overflow-y: hidden;  Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    
+  }
+
+  .msg-descriptografa{
+    background: white;
+    background-image: url(img/procurando-messages.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .info{
+    display: block;
+    font-style: normal;
+    font-size: small;
+    margin-top: 80px;
+  }
+
+  .info svg{
+    vertical-align: top;
+    margin-right: 5px;
+  }
+  
+  button{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    padding: 20px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 200px;
+    cursor: pointer;
+  }
+
+  .buttons{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+  }
+
+  .btn-copy{
+    color: #0A3871;
+  }
+  
+  .btn-criptografa{
+    background: #0A3871; 
+    color: #D8DFE8;
+  }
+
+  .btn-descriptografa{
+    background: #D8DFE8; 
+    color: #0A3871;  
+  }
+  
+  .no-message {
+    background: white;
+  }
+
+  .no-message h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+
+  .no-message p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  footer {
+    margin-top: 100px;
+    color: #D8DFE8;
+    background-color: #0A3871;
+    padding: 40px;
+    text-align: center;
+  }
