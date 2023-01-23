@@ -39,6 +39,8 @@
     margin-top: 10px;
     margin-right: 10px;
     width: 400px;
+    float: right;
+    clear: left;
   }
   
   textarea{
