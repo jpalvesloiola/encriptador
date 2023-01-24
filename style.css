@@ -30,20 +30,22 @@
   }
   
   .col-right{
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     background: white;
     border-radius: 32px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     padding: 20px;
     text-align: center;
-    margin-top: 10px;
-    margin-right: 10px;
     width: 400px;
     float: right;
     clear: left;
   }
   
   textarea{
+    color: #0A3871;
     background: #F3F5FC;
     font-size: 32px;
     border: none;
@@ -87,7 +89,7 @@
 
   .msg-descriptografa{
     background: white;
-    background-image: url(img/procurando-messages.png);
+    background-image: url();
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -121,6 +123,7 @@
     display: flex;
     gap: 30px;
     margin-top: 10px;
+    padding-bottom: 20px;
   }
 
   .btn-copy{
@@ -138,7 +141,10 @@
   }
   
   .no-message {
+    display: none;
     background: white;
+    position: relative;
+    bottom: 150px;
   }
 
   .no-message h3{
