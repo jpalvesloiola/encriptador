@@ -1,4 +1,4 @@
-# encriptador
+# Encriptador
 
 Projeto ONE + Alura para criptografar e descriptografar mensagens.
 
